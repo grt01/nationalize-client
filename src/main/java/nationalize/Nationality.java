@@ -1,14 +1,9 @@
 package nationalize;
 
 import com.google.gson.annotations.SerializedName;
-
 import java.util.List;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-
 @lombok.Data
-
 public class Nationality {
 
     private long count;
